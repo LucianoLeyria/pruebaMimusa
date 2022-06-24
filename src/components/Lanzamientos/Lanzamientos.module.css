@@ -1,0 +1,48 @@
+.all {
+  padding: 80px 0px 20px 60px;
+}
+
+.descubre {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #011c44;
+  font-size: 16px;
+  margin-left: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nuevos {
+  font-family: 'Staatliches', cursive;
+  color: #011c44;
+  font-size: 30px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.obras {
+  margin-top: 20px;
+  margin-right: 80px;
+  position: absolute;
+  color: #0039ff;
+  font-weight: bold !important;
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.linea {
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+.obrasylinea {
+  margin-top: 20px;
+  position: relative;
+  margin-left: 10px;
+}
+
+.all.light {
+  background-color: white;
+  color: #011c44;
+}
+
+.all.dark {
+  background-color: #011c44;
+  color: white;
+}

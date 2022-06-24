@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+.all {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  font-family: 'Staatliches', cursive;
+}
+
+.all h1 {
+  font-size: 50px;
+}
+
+.jugador {
+  position: relative;
+}
+.fondojugador {
+  position: absolute;
+  top: 10%;
+  right: 1%;
+}
+
+.jugadorsolo {
+  position: relative;
+  margin-left: 50px;
+}
+
+.rojito {
+  color: #d6302a;
+}
+
+.pnormal {
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pconbold {
+  margin: 2px 0px 0px 2px;
+  font-size: 16px;
+}
+
+.ps {
+  margin: 20px 0px 70px 0px;
+}
+
+.buttons {
+  width: 400px;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nft {
+  cursor: pointer;
+  background-color: #0039ff;
+  border: none;
+  padding: 10px 28px;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.explorar {
+  cursor: pointer;
+  background-color: #d6302a;
+  border: none;
+  padding: 10px 28px;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.all.invertido {
+  flex-direction: row-reverse;
+}
+
+.titulo {
+  position: relative;
+  margin-left: 50px;
+}
+
+.parrafito {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}

@@ -1,0 +1,38 @@
+.all {
+  position: relative;
+}
+.button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: Montserrat;
+}
+
+.toggle {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  font-size: 16px;
+  background-color: #20b6db;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.toggle > * {
+  padding: 10px 0px 10px 0px;
+}
+
+.button.light {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.button.dark {
+  color: #15151a;
+  font-size: 16px;
+  font-weight: bold;
+}

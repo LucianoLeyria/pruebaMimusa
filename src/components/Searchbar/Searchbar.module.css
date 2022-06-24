@@ -1,0 +1,47 @@
+.inputybutton {
+  border-radius: 15px 0px 17px 0px;
+  border: 1px solid black;
+}
+
+.input {
+  border: none;
+  font-size: 18px;
+  padding-left: 5px;
+  background-color: transparent;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.lupa {
+  border: none;
+  background: none;
+  font-size: 25px;
+  position: relative;
+  right: 2%;
+  top: 2px;
+  cursor: pointer;
+}
+
+.lupa.light {
+  color: #011c44;
+}
+
+.lupa.dark {
+  color: white;
+}
+
+.inputybutton.light {
+  border: 1px solid #011c44;
+  opacity: 50%;
+}
+
+.inputybutton.dark {
+  border: 1px solid white;
+}
+
+.input::placeholder {
+  font-size: 16px;
+  padding: 10px;
+}

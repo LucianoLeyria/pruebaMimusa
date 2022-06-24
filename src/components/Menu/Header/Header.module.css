@@ -1,0 +1,13 @@
+.fondo {
+  background-image: url('../../../images/fondo.png');
+}
+
+.fondo.light {
+  background-image: url('../../../images/fondo.png');
+  color: #011c44;
+}
+
+.fondo.dark {
+  background-image: url('../../../images/fondoDark.png');
+  color: white;
+}

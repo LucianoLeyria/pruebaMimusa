@@ -1,0 +1,26 @@
+.all img {
+  filter: opacity(50%);
+}
+
+.all {
+  margin: 80px 0px 0px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.descubre {
+  font-family: 'Montserrat';
+
+  font-size: 16px;
+}
+
+.partners {
+  font-family: 'Staatliches', cursive;
+
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.imgs > * {
+  margin: 0px 30px;
+}

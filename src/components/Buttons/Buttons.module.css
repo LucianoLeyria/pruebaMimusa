@@ -1,0 +1,37 @@
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0px 0px 0px;
+}
+
+.token {
+  margin: 5px 60px 5px 60px;
+  padding: 5px 60px 5px 60px;
+  border: none;
+  background: none;
+  border: 2px solid #0039ff;
+  color: inherit;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.blog {
+  margin: 5px 60px 5px 60px;
+  padding: 5px 60px 5px 60px;
+  border: none;
+  background: none;
+  border: 2px solid #0039ff;
+  color: inherit;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buttons.light {
+  background-color: white;
+  color: #0039ff;
+}
+
+.buttons.dark {
+  background-color: #011c44;
+  color: white;
+}

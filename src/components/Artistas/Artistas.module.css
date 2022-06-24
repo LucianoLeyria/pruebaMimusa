@@ -1,0 +1,14 @@
+.all {
+  display: flex;
+  flex-direction: column;
+}
+
+.lista {
+  display: flex;
+  width: 100%;
+  padding: 8px;
+  justify-content: space-between;
+  background-color: #0039ff;
+  margin: 40px 0px 0px 0px;
+  color: white;
+}

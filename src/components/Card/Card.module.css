@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.all {
+  position: relative;
+  padding: 30px;
+  width: 370px;
+  border: 1px solid blue;
+  border-radius: 20px;
+  height: 330px;
+  margin: 0px 10px 0px 10px;
+}
+
+.titulo {
+  margin: 10px 0px 0px 0px;
+
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 120%;
+  letter-spacing: 5%;
+}
+
+.precio {
+  position: absolute;
+  margin: 10px 0px 0px 0px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.preciodolar {
+  margin-top: 25px;
+
+  font-size: 13px;
+  font-weight: bold;
+  position: absolute;
+}
+
+.buttoncomprar {
+  border: none;
+  font-weight: bold;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  margin-left: 200px;
+  margin-bottom: 10px;
+  bottom: -28px;
+  right: 30px;
+  position: absolute;
+  cursor: pointer;
+}

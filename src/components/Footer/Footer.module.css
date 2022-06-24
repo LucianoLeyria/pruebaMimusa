@@ -1,0 +1,31 @@
+.all {
+  background-color: #011c44;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px 100px 0px;
+}
+
+.all2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img {
+  width: 200px;
+  margin: 0px 0px 40px 0px;
+}
+
+.titulo {
+  font-size: 16px;
+  margin: 0px 0px 50px 0px;
+  font-family: 'Montserrat';
+}
+.ancord {
+  font-size: 30px;
+  margin: 20px;
+  cursor: pointer;
+  color: white !important;
+}

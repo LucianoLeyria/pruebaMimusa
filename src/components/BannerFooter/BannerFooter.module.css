@@ -1,0 +1,51 @@
+.all {
+  margin: 100px 0px 0px 0px;
+  position: relative;
+  background-color: #011c44;
+}
+
+.img {
+  max-width: 100%;
+  position: relative;
+}
+
+.inputtext {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  border: none;
+  background: transparent;
+  left: 15%;
+  top: 62%;
+  padding: 7px;
+  width: 300px;
+}
+
+.inputtext:focus {
+  outline: none;
+}
+
+.button {
+  z-index: 1;
+  position: absolute;
+  left: 39%;
+  top: 61%;
+  padding: 10px 60px 10px 50px;
+  background-color: red;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.inputcheck {
+  background-color: red;
+  color: #011c44;
+  z-index: 1;
+  position: absolute;
+  left: 14.5%;
+  top: 75.4%;
+  cursor: pointer;
+}
+
+.inputcheck input:checked ~ .checkmark {
+  background-color: #2196f3;
+}

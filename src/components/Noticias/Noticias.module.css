@@ -1,0 +1,40 @@
+.all {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+.textos {
+  margin-bottom: 60px;
+}
+
+.noticias {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0px 0px 10px 0px;
+}
+
+.blog {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imagenes {
+  display: flex;
+}
+
+.leermas {
+  align-self: start;
+  margin: 50px 0px 0px 0px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  background: none;
+  background-color: #d6302a;
+  padding: 8px 40px 6px 40px;
+  border-radius: 6px;
+  cursor: pointer;
+}
